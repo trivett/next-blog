@@ -40,7 +40,7 @@ function getMDXData(dir) {
   return mdxFiles.map((file) => {
     let { metadata, content } = readMDXFile(path.join(dir, file))
     let slug = path.basename(file, path.extname(file))
-
+  
     return {
       metadata,
       slug,
@@ -50,12 +50,14 @@ function getMDXData(dir) {
 }
 
 export function getBlogPosts() {
-  return getMDXData(path.join(process.cwd(), 'app', 'blog', 'posts'))
+  const mdx = getMDXData(path.join(process.cwd(), 'app', 'blog', 'posts'));
+
+  return mdx;
 }
 
 export function formatDate(date: string, includeRelative = false) {
   let currentDate = new Date()
-  if (!date.includes('T')) {
+  if (!date?.includes('T')) {
     date = `${date}T00:00:00`
   }
   let targetDate = new Date(date)
@@ -77,7 +79,7 @@ export function formatDate(date: string, includeRelative = false) {
   }
 
   let fullDate = targetDate.toLocaleString('en-us', {
-    month: 'long',
+    month: 'short',
     day: 'numeric',
     year: 'numeric',
   })
