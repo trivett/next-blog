@@ -22,7 +22,7 @@ export default function Page() {
 
       <section className="mb-8">
         <h3 className="text-3xl mb-4">Education</h3>
-        <hr className="mb-6 mt-4" />
+        <hr className="mb-6 mt-6" />
 
         <section className="mb-8">
           <h3 className="text-2xl">
@@ -40,7 +40,7 @@ export default function Page() {
               Rails, relational databases, and JavaScript.
             </li>
           </ul>
-          <hr className="mb-6 mt-4" />
+          <hr className="mb-6 mt-6" />
         </section>
 
         <section className="mb-8">
@@ -53,7 +53,7 @@ export default function Page() {
               reporting.
             </li>
           </ul>
-          <hr className="mb-6 mt-4" />
+          <hr className="mb-6 mt-6" />
         </section>
 
         <section className="mb-8">
@@ -63,7 +63,7 @@ export default function Page() {
           <ul className="list-disc list-outside">
             <li className="mb-3 ml-3 pl-2 leading-5">BA in English</li>
           </ul>
-          <hr className="mb-6 mt-4" />
+          <hr className="mb-6 mt-6" />
         </section>
       </section>
     </section>

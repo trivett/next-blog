@@ -118,7 +118,7 @@ export const experienceData: WorkExperienceData = {
 
   generalAssembly: {
     companyName: "General Assembly",
-    title: "Part time instructor",
+    title: "Part-time instructor",
     dates: "Jul 2015 - May 2019",
     workDelivered: [
       "Developed curriculum and taught night classes on back end web development for students with various programming backgrounds.",
@@ -156,8 +156,8 @@ export const experienceData: WorkExperienceData = {
     title: "",
     dates: "Nov 2008 - Feb 2014",
     workDelivered: [
-      "Helped start a company in Yokohama, Japan where I wrote, conducted interviews, translated, took photos, edited ,and sold ads for several arts and culture magazines.",
-      "My work has also appeared in Quartz, Business Insider, City Limits, Skift, WNYC, and other outlets. Translated Japanese news for Nippon TV",
+      "Helped start a company in Yokohama, Japan where I wrote, conducted interviews, translated, took photos, edited, and sold ads for several arts and culture magazines.",
+      "My work has also appeared in Quartz, Business Insider, City Limits, Skift, WNYC, and other outlets. Translated Japanese news for Nippon TV.",
     ],
   },
 
@@ -167,7 +167,7 @@ export const experienceData: WorkExperienceData = {
   //   dates: "Jan 2005 - Jul 2010",
   //   workDelivered: [
   //     "Tutored Expository Writing students at Rutgers University.",
-  //     "Taught English grammar in part time courses in ",
+  //     "Taught English grammar in part-time courses in ",
   //   ],
   // },
 };
