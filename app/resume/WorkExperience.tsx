@@ -19,8 +19,7 @@ export const WorkExperience = ({
   return (
     <section className="mb-8">
       <h3 className="text-2xl">{headline}</h3>
-      <h5 className="text-sm">{dates}</h5>
-      <hr className="mb-6 mt-4" />
+      <h5 className="text-sm mb-6">{dates}</h5>
 
       {/* <h4 className="text-xl mt-4 mb-4">Work delivered</h4> */}
       <ul className="list-disc list-outside">
@@ -44,6 +43,7 @@ export const WorkExperience = ({
           );
         })}
       </p>
+      <hr className="mb-6 mt-6" />
     </section>
   );
 };

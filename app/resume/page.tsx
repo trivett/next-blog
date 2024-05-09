@@ -11,22 +11,24 @@ export default function Page() {
         experience creating software for companies large and small.
       </p>
 
-      <h2 className="text-3xl mb-8" font-semibold>
+      <h2 className="text-3xl mb-4" font-semibold>
         Work experience
       </h2>
+      <hr className="mb-6 mt-4" />
 
       {Object.values(Company).map((company) => (
         <WorkExperience company={company} />
       ))}
 
       <section className="mb-8">
-        <h3 className="text-3xl mb-8">Education</h3>
+        <h3 className="text-3xl mb-4">Education</h3>
+        <hr className="mb-6 mt-4" />
+
         <section className="mb-8">
           <h3 className="text-2xl">
             General Assembly Web Development Immersive
           </h3>
           <h5 className="text-sm">Feb 2014 - May 2014</h5>
-          <hr className="mb-6 mt-4" />
 
           <ul className="list-disc list-outside">
             <li className="mb-3 ml-3 pl-2 leading-5">
@@ -38,12 +40,12 @@ export default function Page() {
               Rails, relational databases, and JavaScript.
             </li>
           </ul>
+          <hr className="mb-6 mt-4" />
         </section>
 
         <section className="mb-8">
           <h3 className="text-2xl">CUNY Graduate School of Journalism</h3>
           <h5 className="text-sm">Aug 2010 - Dec 2011</h5>
-          <hr className="mb-6 mt-4" />
 
           <ul className="list-disc list-outside">
             <li className="mb-3 ml-3 pl-2 leading-5">
@@ -51,16 +53,17 @@ export default function Page() {
               reporting.
             </li>
           </ul>
+          <hr className="mb-6 mt-4" />
         </section>
 
         <section className="mb-8">
           <h3 className="text-2xl">Rutgers University</h3>
           <h5 className="text-sm">Aug 2002 - May 2006</h5>
-          <hr className="mb-6 mt-4" />
 
           <ul className="list-disc list-outside">
             <li className="mb-3 ml-3 pl-2 leading-5">BA in English</li>
           </ul>
+          <hr className="mb-6 mt-4" />
         </section>
       </section>
     </section>
