@@ -11,6 +11,10 @@ export default function Page() {
         I live in Brooklyn, NY. I mostly enjoy cycling, learning languages, and
         playing with my cat.
       </p>
+
+      {/* <p className="mb-4">
+        Before 
+      </p> */}
     </section>
   );
 }
