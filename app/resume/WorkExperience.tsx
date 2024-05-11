@@ -18,7 +18,7 @@ export const WorkExperience = ({
   const headline = title ? `${companyName} - ${title}` : companyName;
   return (
     <section className="mb-8">
-      <h3 className="text-2xl">{headline}</h3>
+      <h3 className="text-2xl mb-2 font-semibold">{headline}</h3>
       <h5 className="text-sm mb-6">{dates}</h5>
 
       {/* <h4 className="text-xl mt-4 mb-4">Work delivered</h4> */}
@@ -28,11 +28,7 @@ export const WorkExperience = ({
         })}
       </ul>
 
-      {toolsUsed && (
-        <h4 className="text-lg mt-1 underline underline-offset-2">
-          Tools used
-        </h4>
-      )}
+      {toolsUsed && <h4 className="text-lg mt-1 font-medium">Tools used</h4>}
       <p className="inline">
         {toolsUsed?.map((item: String, i: Number) => {
           return (

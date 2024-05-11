@@ -36,7 +36,7 @@ export const experienceData: WorkExperienceData = {
       "Leveraged database views and caching to improve performance.",
       "Found and addressed customer-facing accessibility issues.",
       "Integrated with analytics and other third party services.",
-      "Fashioned a homespun first party analytics service using Kinesis, S3, and Redshift",
+      "Fashioned a homespun first party analytics service using Kinesis, S3, and Redshift.",
       "Built tools to streamline customer service.",
       "Implemented features to reduce churn and increase retention.",
       "Promoted to Senior level in Fall 2021. Proud (but not excessively proud apparently) three time recipient of the '#behumble' core value award.",
@@ -118,7 +118,7 @@ export const experienceData: WorkExperienceData = {
 
   generalAssembly: {
     companyName: "General Assembly",
-    title: "Part-time instructor",
+    title: "Part-time Instructor",
     dates: "Jul 2015 - May 2019",
     workDelivered: [
       "Developed curriculum and taught night classes on back end web development for students with various programming backgrounds.",
@@ -130,7 +130,7 @@ export const experienceData: WorkExperienceData = {
 
   twoU: {
     companyName: "2U Inc",
-    title: "Implementation engineer",
+    title: "Implementation Engineer",
     dates: "Jun 2014 - Jul 2016",
     workDelivered: [
       "Built and deployed services such as college applications, marketing sites, and learning management systems for major U.S. universities' online graduage degree offerings.",
