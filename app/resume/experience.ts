@@ -1,5 +1,3 @@
-import { title } from "process";
-
 export enum Company {
   careOf = "careOf",
   fabric = "fabric",
