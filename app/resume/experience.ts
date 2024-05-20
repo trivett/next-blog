@@ -10,11 +10,11 @@ export enum Company {
 }
 
 export interface WorkExperienceDatum {
-  companyName: String;
-  title: String;
-  dates: String;
-  workDelivered: String[];
-  toolsUsed?: String[];
+  companyName: string;
+  title: string;
+  dates: string;
+  workDelivered: string[];
+  toolsUsed?: string[];
 }
 
 export type WorkExperienceData = {

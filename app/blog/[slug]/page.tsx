@@ -3,7 +3,11 @@ import { CustomMDX } from "app/components/mdx";
 import { formatDate, getBlogPosts } from "app/blog/utils";
 import { baseUrl } from "app/sitemap";
 
-export async function generateStaticParams() {
+export async function generateStaticParams(): Promise<
+  {
+    slug: string;
+  }[]
+> {
   let posts = getBlogPosts();
 
   return posts.map((post) => ({
