@@ -13,7 +13,7 @@ function ArrowIcon() {
       />
     </svg>
   );
-}
+} // replace with fontawesome
 
 const ContactLineItem = ({ name, url }) => {
   return (
