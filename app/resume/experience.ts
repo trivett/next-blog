@@ -9,12 +9,24 @@ export enum Company {
   // teaching = "teaching",
 }
 
+export enum Institution {
+  generalAssembly = "generalAssembly",
+  cuny = "cuny",
+  rutgers = "rutgers",
+}
+
 export interface WorkExperienceDatum {
   companyName: string;
   title: string;
   dates: string;
   workDelivered: string[];
   toolsUsed?: string[];
+}
+
+export interface EducationDatum {
+  schoolName: string;
+  dates: string;
+  stuffLearned: string[];
 }
 
 export type WorkExperienceData = {
@@ -168,4 +180,31 @@ export const experienceData: WorkExperienceData = {
   //     "Taught English grammar in part-time courses in ",
   //   ],
   // },
+};
+
+export type EducationData = {
+  [key in Institution]: EducationDatum;
+};
+
+export const educationData: EducationData = {
+  generalAssembly: {
+    schoolName: "General Assembly Web Development Immersive",
+    dates: "Feb 2014 - May 2014",
+    stuffLearned: [
+      "Completed a 12-week immersive bootcamp in full stack webd evelopment.",
+      "Learned basics of software engineering with a focus on Ruby on Rails, relational databases, and JavaScript.",
+    ],
+  },
+  cuny: {
+    schoolName: "CUNY Graduate School of Journalism",
+    dates: "Aug 2010 - Dec 2011",
+    stuffLearned: [
+      "MS in digital journalism, specialized in business and economic reporting.",
+    ],
+  },
+  rutgers: {
+    schoolName: "Rutgers University",
+    dates: "Aug 2002 - May 2006",
+    stuffLearned: ["BA in English"],
+  },
 };
