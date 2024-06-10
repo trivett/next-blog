@@ -21,10 +21,13 @@ export const WorkExperience = ({
       <h3 className="text-2xl mb-2 font-semibold">{headline}</h3>
       <h5 className="text-sm mb-6">{dates}</h5>
 
-      {/* <h4 className="text-xl mt-4 mb-4">Work delivered</h4> */}
       <ul className="list-disc list-outside">
         {workDelivered?.map((item) => {
-          return <li className="mb-3 ml-3 pl-2 leading-5">{item}</li>;
+          return (
+            <li className="mb-3 ml-3 pl-2 leading-5" key={item}>
+              {item}
+            </li>
+          );
         })}
       </ul>
 
@@ -32,10 +35,10 @@ export const WorkExperience = ({
       <p className="inline">
         {toolsUsed?.map((item: String, i: Number) => {
           return (
-            <>
+            <span key="i">
               <span className="inline mb-1 pr-1 leading-5">{item}</span>
               {i !== toolsUsed.length - 1 && <span>&#x2022; </span>}
-            </>
+            </span>
           );
         })}
       </p>
