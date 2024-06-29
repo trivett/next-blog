@@ -83,7 +83,6 @@ export const experienceData: WorkExperienceData = {
     ],
     toolsUsed: [
       "TypeScript",
-      "JavaScript",
       "Node.js",
       "AWS Lambda",
       "Dynamo DB",
@@ -91,7 +90,6 @@ export const experienceData: WorkExperienceData = {
       "React",
       "Redux",
       "Gatsby",
-      "Java",
     ],
   },
 
@@ -154,7 +152,6 @@ export const experienceData: WorkExperienceData = {
       "Salesforce",
       "Flask",
       "AngularJS",
-      "jQuery",
       "Jenkins",
       "MongoDB",
       "JavaScript",
