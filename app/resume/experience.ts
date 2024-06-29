@@ -142,10 +142,9 @@ export const experienceData: WorkExperienceData = {
     title: "Implementation Engineer",
     dates: "Jun 2014 - Jul 2016",
     workDelivered: [
-      "Built and deployed services such as college applications, marketing sites, and learning management systems for major U.S. universities' online graduage degree offerings.",
-      "Worked with a complex tangle of microservices built by siloed teams using various frameworks and languages.",
+      "Built and deployed services such as college applications, marketing sites, and learning management systems for major U.S. universities' online graduate degree offerings.",
+      "Worked with a complex tangle of new and mature microservices built by siloed teams using various frameworks and languages.",
       "Practiced agile methodologies in a deadline-driven environment.",
-      "Worked with new and mature code bases.",
     ],
     toolsUsed: [
       "Python",
@@ -189,7 +188,7 @@ export const educationData: EducationData = {
     schoolName: "General Assembly Web Development Immersive",
     dates: "Feb 2014 - May 2014",
     stuffLearned: [
-      "Completed a 12-week immersive bootcamp in full stack webd evelopment.",
+      "Completed a 12-week immersive bootcamp in full stack web development.",
       "Learned basics of software engineering with a focus on Ruby on Rails, relational databases, and JavaScript.",
     ],
   },
