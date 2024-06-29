@@ -2,10 +2,12 @@ import { experienceData, Company, WorkExperienceDatum } from "./experience";
 
 interface WorkExperienceProps {
   company: Company;
+  last: boolean;
 }
 
 export const WorkExperience = ({
   company,
+  last,
 }: WorkExperienceProps): JSX.Element => {
   const {
     companyName,
@@ -53,7 +55,7 @@ export const WorkExperience = ({
           );
         })}
       </p>
-      <hr className="mb-6 mt-6 print:mb-3 print:mt-3" />
+      {!last && <hr className="mb-6 mt-6 print:mb-3 print:mt-3" />}
     </section>
   );
 };
