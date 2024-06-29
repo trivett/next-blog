@@ -188,8 +188,7 @@ export const educationData: EducationData = {
     schoolName: "General Assembly Web Development Immersive",
     dates: "Feb 2014 - May 2014",
     stuffLearned: [
-      "Completed a 12-week immersive bootcamp in full stack web development.",
-      "Learned basics of software engineering with a focus on Ruby on Rails, relational databases, and JavaScript.",
+      "Learned basics of software engineering and web development in a 12-week immersive bootcamp.",
     ],
   },
   cuny: {
