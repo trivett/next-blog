@@ -106,7 +106,8 @@ export const experienceData: WorkExperienceData = {
     ],
     toolsUsed: [
       "AngularJS",
-      "Angular",
+      "Angular 2",
+      "D3.js",
       "JavaScript",
       "Python",
       "Google Cloud Platform",
