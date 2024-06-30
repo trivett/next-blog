@@ -116,9 +116,10 @@ export const experienceData: WorkExperienceData = {
     title: "Lead Engineer",
     dates: "Jul 2016 - Aug 2017",
     workDelivered: [
-      "Manged all aspects of full-stack development and design as lead (sole) developer for a small startup providing international accommodation for students.",
+      "Led all aspects of full-stack development and design for a small startup providing international accommodation for students.",
+      "Made high-level decisions on product direction as lead (sole) developer.",
       "Interviewed, hired, and mentored a junior developer.",
-      "Instituted agile practices and continuous integration.",
+      "Instituted agile practices and continuous integration to streamline and organize development processes.",
     ],
     toolsUsed: ["Ruby on Rails", "AngularJS", "PostgreSQL", "JavaScript"],
   },
@@ -129,9 +130,9 @@ export const experienceData: WorkExperienceData = {
     dates: "Jul 2015 - May 2019",
     workDelivered: [
       "Developed curriculum and taught night classes on back end web development for students with various programming backgrounds.",
-      "Held weekly mentoring sessions teaching Web Development Immersive graduates advanced topics.",
+      "Held weekly mentoring sessions teaching Web Development Immersive graduates more advanced topics.",
       "Helped students with personal projects and interview preparation.",
-      "Taught beginners from 'Hello World' in HTML to building interactive data-driven applications.",
+      "Taught two day Programming for Non Programmers workshops which took users from their first line of HTML to building interactive data-driven applications with JavaScript.",
     ],
   },
 
