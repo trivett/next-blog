@@ -40,7 +40,7 @@ export const experienceData: WorkExperienceData = {
     dates: "Oct 2020 - July 2024",
     workDelivered: [
       "Developed new features and maintained systems supporting customer retention at a direct-to-consumer health supplement delivery startup.",
-      "Spearheaded design and planning of major greenfield projects such as the complete revamp of our mobile app.",
+      "Spearheaded design and planning of major projects such as the complete revamp of our mobile app.",
       "Built back end APIs servicing both mobile app and web.",
       "Proactively pushed for tech debt cleanup and refactoring, identified and deleted a lot of dead code.",
       "Leveraged database views and caching to improve performance.",
@@ -48,7 +48,6 @@ export const experienceData: WorkExperienceData = {
       "Integrated with analytics and other third party services.",
       "Fashioned a homespun first party analytics service using Kinesis, S3, and Redshift.",
       "Built tools to streamline customer service.",
-      "Implemented features to reduce churn and increase retention.",
       "Promoted to Senior level in Fall 2021. Proud (but not excessively proud apparently) three time recipient of the '#behumble' core value award.",
     ],
 
@@ -71,7 +70,7 @@ export const experienceData: WorkExperienceData = {
   },
 
   fabric: {
-    companyName: "Fabric Technologies",
+    companyName: "Fabric",
     title: "Senior Software Engineer",
     dates: "Jan 2019 - Oct 2020",
     workDelivered: [
@@ -117,10 +116,9 @@ export const experienceData: WorkExperienceData = {
     title: "Lead Engineer",
     dates: "Jul 2016 - Aug 2017",
     workDelivered: [
-      "Led all aspects of full-stack development and design for a small startup providing international accommodation for students.",
-      "Made high-level decisions on product direction as lead (sole) developer.",
+      "Manged all aspects of full-stack development and design as lead (sole) developer for a small startup providing international accommodation for students.",
       "Interviewed, hired, and mentored a junior developer.",
-      "Instituted agile practices and continuous integration to streamline and organize development processes.",
+      "Instituted agile practices and continuous integration.",
     ],
     toolsUsed: ["Ruby on Rails", "AngularJS", "PostgreSQL", "JavaScript"],
   },
@@ -131,9 +129,9 @@ export const experienceData: WorkExperienceData = {
     dates: "Jul 2015 - May 2019",
     workDelivered: [
       "Developed curriculum and taught night classes on back end web development for students with various programming backgrounds.",
-      "Held weekly mentoring sessions teaching Web Development Immersive graduates more advanced topics.",
+      "Held weekly mentoring sessions teaching Web Development Immersive graduates advanced topics.",
       "Helped students with personal projects and interview preparation.",
-      "Taught two day Programming for Non Programmers workshops which took users from their first line of HTML to building interactive data-driven applications with JavaScript.",
+      "Taught beginners from 'Hello World' in HTML to building interactive data-driven applications.",
     ],
   },
 
