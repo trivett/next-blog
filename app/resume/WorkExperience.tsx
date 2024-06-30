@@ -20,16 +20,16 @@ export const WorkExperience = ({
   const headline = title ? `${companyName} - ${title}` : companyName;
   return (
     <section className="mb-8 print:mb-4">
-      <h3 className="text-2xl mb-2 font-semibold print:text-lg print:mb-1">
-        {headline}
-      </h3>
-      <h5 className="text-sm mb-6 print:text-xs print:mb-3">{dates}</h5>
+      <div className="flex mb-2 flex-row flex-wrap justify-between items-center h-18">
+        <h3 className="text-xl font-semibold print:text-lg">{headline}</h3>
+        <h5 className="text-sm print:text-xs">{dates}</h5>
+      </div>
 
       <ul className="list-disc list-outside">
         {workDelivered?.map((item) => {
           return (
             <li
-              className="mb-3 ml-3 pl-2 leading-5 print:text-xs print:mb-2"
+              className="mb-3 ml-3 pl-2 leading-5 print:text-xs print:mb-1"
               key={item}
             >
               {item}
@@ -55,7 +55,7 @@ export const WorkExperience = ({
           );
         })}
       </p>
-      {!last && <hr className="mb-6 mt-6 print:mb-3 print:mt-3" />}
+      {!last && <hr className="mb-6 mt-6 print:mb-1 print:mt-1" />}
     </section>
   );
 };
