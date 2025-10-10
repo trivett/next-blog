@@ -1,4 +1,5 @@
 export enum Company {
+  ritual = "ritual",
   careOf = "careOf",
   fabric = "fabric",
   google = "google",
@@ -34,6 +35,36 @@ export type WorkExperienceData = {
 };
 
 export const experienceData: WorkExperienceData = {
+  ritual: {
+    companyName: "Ritual",
+    title: "Senior Software Engineer",
+    dates: "Aug 2024 - Present",
+    workDelivered: [
+      "Worked on the consumer-facing website for a direct-to-consumer women's health supplement company.",
+      "Rebuilt checkout page using Stripe Elements to deliver a secure and smooth user experience.",
+      "Integrated checkout with a third party partner to support HSA/FSA payments.",
+      "Performed regular triage and bug fixing.",
+      "Championed a gradual migration to TypeScript.",
+      "Leveraged AI for improving accessibility, refactoring, and debugging.",
+    ],
+
+    toolsUsed: [
+      "Gatsby",
+      "React",
+      "Stripe",
+      "TypeScript",
+      "Web Components",
+      "Stencil",
+      "GraphQL",
+      "Ember.js",
+      "Ruby on Rails",
+      "Sorbet",
+      "PostgreSQL",
+      "RSpec",
+      "Styled Components",
+      "Sidekiq",
+    ],
+  },
   careOf: {
     companyName: "Care/Of",
     title: "Senior Software Engineer",
