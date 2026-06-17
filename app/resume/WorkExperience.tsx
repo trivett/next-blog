@@ -1,4 +1,5 @@
 import { experienceData, Company, WorkExperienceDatum } from "./experience";
+import React from "react";
 
 interface WorkExperienceProps {
   company: Company;
@@ -8,7 +9,7 @@ interface WorkExperienceProps {
 export const WorkExperience = ({
   company,
   last,
-}: WorkExperienceProps): JSX.Element => {
+}: WorkExperienceProps): React.JSX.Element => {
   const {
     companyName,
     title,

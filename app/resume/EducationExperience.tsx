@@ -8,7 +8,7 @@ interface EducationExperienceProps {
 export const EducationExperience = ({
   institution,
   last,
-}: EducationExperienceProps): JSX.Element => {
+}: EducationExperienceProps): React.JSX.Element => {
   const { schoolName, dates, stuffLearned }: EducationDatum =
     educationData[institution];
 
