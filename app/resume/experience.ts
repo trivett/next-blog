@@ -43,9 +43,10 @@ export const experienceData: WorkExperienceData = {
       "Worked on the consumer-facing website for a direct-to-consumer women's health supplement company.",
       "Rebuilt checkout page using Stripe Elements to deliver a secure and smooth user experience.",
       "Integrated checkout with a third party partner to support HSA/FSA payments.",
+      "Took part in a company-wide migration to Shopify while maintaining and eventually retiring the legacy system.",
       "Performed regular triage and bug fixing.",
       "Championed a gradual migration to TypeScript.",
-      "Leveraged AI for improving accessibility, refactoring, and debugging.",
+      "Leveraged LLM tools for exploring unfamiliar parts of the codebase, improving accessibility, refactoring, and debugging.",
     ],
 
     toolsUsed: [
@@ -63,6 +64,9 @@ export const experienceData: WorkExperienceData = {
       "RSpec",
       "Styled Components",
       "Sidekiq",
+      "Shopify",
+      "Liquid",
+      "Cursor, Copilot, and other LLM tools",
     ],
   },
   careOf: {
