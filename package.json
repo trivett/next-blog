@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start"
   },
   "dependencies": {
@@ -13,6 +13,7 @@
     "@types/react-dom": "19.2.3",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
+    "dotenv": "^17.4.2",
     "next": "^16.2.9",
     "next-mdx-remote": "^6.0.0",
     "postcss": "^8.5.15",
